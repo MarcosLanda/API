@@ -1,0 +1,28 @@
+Endpoint URL
+https://retoolapi.dev/GMew04/data
+
+HTTP method endpoints
+
+GET
+/GMew04/data
+
+GET filter
+/GMew04/data?nombre=value
+
+GET by id
+/GMew04/data/1
+
+GET paginate
+/GMew04/data?_page=2&_limit=10
+
+POST
+/GMew04/data
+
+PUT
+/GMew04/data/1
+
+PATCH
+/GMew04/data/1
+
+DELETE
+/GMew04/data/1
