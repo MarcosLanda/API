@@ -26,6 +26,9 @@
     </header>
     <main class="container">
       <h2>Integrantes del Equipo</h2>
+      <div>
+
+      
       <table id="tabla" class="overflow-auto">
         <thead>
           <tr>
@@ -42,6 +45,7 @@
           <!--Registros que vienen de la API-->
         </tbody>
       </table>
+    </div>
     </main>
 
 
@@ -54,7 +58,7 @@
               </a>
               <h3>Agregar Integrante</h3>
           </header> 
-          <form action="frmAgregar">
+          <form id="frmAgregar">
               <input type="text" id="nombre" placeholder="Nombre" required>
               <input type="text" id="apellido" placeholder="Apellido" required>
               <input type="email" id="email" placeholder="Correo electrónico" required>
